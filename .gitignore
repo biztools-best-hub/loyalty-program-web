@@ -4,3 +4,8 @@
 *logs
 *.env
 *uploads
+.vs
+.vscode
+.idea
+*build
+*out
