@@ -1,0 +1,7 @@
+﻿{
+  "api-url": "http://192.168.3.119",
+  "temp-api-url": "http://localhost:6060",
+  "web-url": "http://192.168.3.119:3030",
+  "webSocket": "ws://192.168.3.119:3030",
+  "company-name":"SUNSIMEXCO LTD"
+}

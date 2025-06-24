@@ -1,0 +1,6 @@
+*dist
+*node_modules
+*iisnode
+*logs
+*.env
+*uploads

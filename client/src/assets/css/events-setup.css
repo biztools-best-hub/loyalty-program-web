@@ -1,0 +1,121 @@
+:root {
+  --maskbg: rgba(0, 0, 0, .7)
+}
+
+.custom-file-upload div:nth-child(2) {
+  flex: 1;
+}
+
+.custom-file-upload .p-fileupload-content {
+  padding: 0;
+  aspect-ratio: 2/1;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+}
+
+.event-img {
+  object-fit: fill;
+  flex: 1;
+  max-width: 40vw;
+  min-width: 250px;
+}
+
+.event-desc #event-description {
+  resize: none;
+}
+
+.custom-file-upload .p-fileupload-row {
+  display: flex;
+  flex: 1;
+}
+
+.custom-file-upload .p-fileupload-row div {
+  padding: 0;
+  flex: 1;
+  display: flex;
+}
+
+.custom-file-upload div div:nth-child(3) {
+  flex: 1;
+}
+
+.no-resize {
+  resize: none;
+}
+
+.custom-file-upload .p-progressbar,
+.custom-file-upload div[data-pc-name="messages"] {
+  display: none;
+}
+
+.App.light .event-item .item-need-bg {
+  background-color: #fff;
+}
+
+.App.dark .event-item .item-need-bg {
+  background-color: #333;
+}
+
+.event-item img,
+.event-item .item-need-bg {
+  border-radius: 2px;
+}
+
+/* .event-item img {
+} */
+.btn-event-edit {
+  background-color: transparent;
+  min-width: 100px;
+  color: #fff;
+  border: solid 1px #c9c7c7;
+}
+
+.need-hover {
+  transition: .1s;
+}
+
+.need-hover:hover,
+.need-hover:focus,
+.need-hover:active {
+  background-color: rgba(255, 255, 255, 0.055);
+  border-color: #fff;
+  color: #fff;
+}
+
+.event-item {
+  transition: .2s;
+  cursor: pointer;
+}
+
+.event-item:hover {
+  transform: scale(1.05);
+}
+
+.p-dialog.preview-event-image {
+  box-shadow: none;
+}
+
+.App.light .preview-event-image .p-dialog-header {
+  background: transparent !important;
+}
+
+.App.dark .preview-event-image .p-dialog-header {
+  background: transparent !important;
+}
+
+.preview-event-image.p-dialog .p-dialog-header .p-dialog-header-icon {
+  color: #fff;
+}
+
+.App.light .preview-event-image .p-dialog-content {
+  background: transparent !important;
+}
+
+.App.dark .preview-event-image .p-dialog-content {
+  background: transparent !important;
+}
+
+.p-dialog.p-component.preview-event-image.p-dialog-default.p-dialog-enter-done {
+  background: transparent;
+}

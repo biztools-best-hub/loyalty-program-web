@@ -1,0 +1,67 @@
+.sect-card {
+  display: flex;
+  flex: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+.permissions-list {
+  max-width: 300px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.users-list {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.in-users-list,
+.in-permissions-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* max-height: calc(100vh - 300px); */
+  overflow-y: auto;
+}
+
+.in-users-list .p-menu.p-component,
+.in-permissions-list .p-menu.p-component {
+  overflow-y: auto;
+  padding: 0;
+}
+
+.in-card {
+  display: flex;
+  margin: 2px;
+  padding: 10px 16px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .2);
+  /* cursor: pointer; */
+}
+
+.users-list .p-dropdown-label.p-inputtext {
+  max-height: 38px;
+}
+
+.users-list .p-dropdown.p-component.p-inputwrapper.p-inputwrapper-filled {
+  max-height: 38px;
+}
+
+/* .loading-dialog .p-dialog.p-component.p-dialog-default.p-dialog-enter-done,
+.loading-dialog .p-dialog.p-component.p-dialog-default.p-dialog-enter-done .p-dialog-header ,
+.loading-dialog .p-dialog.p-component.p-dialog-default.p-dialog-enter-done .p-dialog-content {
+  background: transparent !important;
+} */
+.loading-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

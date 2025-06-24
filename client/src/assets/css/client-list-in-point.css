@@ -1,0 +1,67 @@
+.client-list-point-template,
+.client-list-point-content-2,
+.report-client-list-search,
+.report-client-list-subhead,
+.client-list-point-content {
+  display: flex;
+}
+
+.client-list-point-content,
+.client-list-point-content-2,
+.client-list-point-template {
+  align-items: center;
+}
+
+.client-list-point-template {
+  min-height: 26px;
+  font-size: 12px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.client-list-point-item,
+.client-list-point-item-2,
+.client-list-point-content-2,
+.client-list-point-content {
+  padding: 10px;
+  flex: 1;
+}
+
+.report-client-list-search,
+.client-list-point-content-2,
+.report-client-list-subhead,
+.client-list-point-content {
+  gap: 10px;
+}
+
+.client-list-point-content-2,
+.client-list-point-content {
+  justify-content: space-between;
+}
+
+.client-list-point-content-2,
+.client-list-point-item-2 {
+  max-width: 140px;
+}
+
+.client-list-point-content-2 {
+  padding-right: 16px;
+}
+
+.report-client-list-search {
+  flex-direction: column;
+  padding: 16px;
+}
+
+.client-search-input,
+.report-client-list-search .p-input-icon-right {
+  width: 100%;
+}
+
+.report-client-list-subhead {
+  margin-top: 6px;
+}
+
+.report-client-list-head {
+  max-height: 46px;
+}

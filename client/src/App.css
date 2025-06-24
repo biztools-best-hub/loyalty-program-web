@@ -1,0 +1,243 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: var(--main-font) !important;
+  --tb-bg: #1a1818;
+  --tb-bd: solid 1px #221f1f;
+  --tb-head: #111010;
+  --tb-head-main: #292626;
+}
+
+.App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffff;
+}
+
+.App.dark {
+  background-color: #121212;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.App.dark .p-dialog {
+  border: solid 1px var(--tb-bg);
+}
+
+.App.dark .p-datatable td,
+.App.dark .p-dialog .p-dialog-content,
+.App.dark .p-dialog .p-dialog-header {
+  background: var(--tb-bg);
+}
+
+.p-dialog-mask.p-dialog-center.p-component-overlay.p-component-overlay-enter.p-dialog-visible.p-dialog-resizable {
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.App.dark .p-datatable th {
+  background: var(--tb-head-main);
+  border: solid 1px var(--tb-head-main);
+}
+
+.App,
+.home-content,
+.home-body,
+.base-page {
+  overflow: hidden;
+}
+
+.home-container {
+  overflow: hidden;
+}
+
+.App.dark .p-datatable td {
+  border: var(--tb-bd);
+}
+
+.hoverable:hover {
+  background: rgba(0, 0, 0, .05);
+}
+
+.App.dark .p-menu-overlay {
+  background: #242527;
+  border: none;
+}
+
+.p-dialog-header-icon.p-dialog-header-close.p-link {
+  width: 28px !important;
+  height: 28px !important;
+  padding: 0 !important;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+#password input,
+#c-password input {
+  width: 100%;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.e-pager .e-icon-last::before,
+.e-grid-menu .e-icon-last::before,
+.e-icons .e-icon-last::before {
+  content: '\e655' !important;
+}
+
+.e-pager .e-icon-first::before,
+.e-grid-menu .e-icon-first::before,
+.e-icons .e-icon-first::before {
+  content: '\e656' !important;
+}
+
+.paginator {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 10px;
+  border-radius: 6px;
+}
+
+.paginator .e-pager {
+  border: none;
+}
+
+.App.dark .paginator {
+  background-color: #303030;
+}
+
+.App.light .paginator .e-control.e-pager.e-lib,
+.App.light .paginator .e-icons.e-disable,
+.App.light .paginator .e-pager-default,
+.App.light .paginator .e-pagercontainer {
+  background-color: transparent;
+}
+
+.App.light .paginator {
+  background-color: rgba(255, 130, 130, 0.685);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.App.dark .negative,
+.App.dark .e-rowcell.negative {
+  color: #FCA5A5;
+}
+
+.App.light .negative,
+.App.light .e-rowcell.negative {
+  color: #EF4444;
+}
+
+.App.light .positive,
+.App.light .e-rowcell.positive {
+  color: #22C55E;
+}
+
+.App.dark .positive,
+.App.dark .e-rowcell.positive {
+  color: #86EFAC;
+}
+
+.App.light .warning,
+.App.light .e-rowcell.warning {
+  color: #F59E0B;
+}
+
+.App.dark .warning,
+.App.dark .e-rowcell.warning {
+  color: #FCD34D;
+}
+
+.ri {
+  font-family: remixicon;
+}
+
+.custom-cell-left {
+  display: flex;
+  gap: 6px;
+}
+
+.e-table .e-columnheader {
+  background-color: #2296b9;
+  color: #fff;
+}
+
+.App.dark .female,
+.App.dark .e-rowcell.female {
+  color: #FF96DA;
+}
+
+.App.dark .male,
+.App.dark .e-rowcell.male {
+  color: #7dc0ff;
+}
+
+.App.light .male,
+.App.light .e-rowcell.male {
+  color: #4593dd;
+}
+
+.App.light .female,
+.App.light .e-rowcell.female {
+  color: #ee37ae;
+}
+
+.p-dialog.p-component.p-dialog-default.p-dialog-enter-done {
+  background-color: #ddd;
+}
+
+.p-dialog-header,
+.p-dialog-content {
+  background: #eee !important;
+  padding: 10px 16px !important;
+}
+
+.p-dialog-header {
+  padding-bottom: 0;
+}
+
+.e-gridcontent .e-content .e-table .e-row .e-rowcell {
+  font-size: 12px !important;
+}

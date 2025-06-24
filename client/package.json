@@ -1,0 +1,51 @@
+{
+  "name": "loyalty-program-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@microsoft/signalr": "^8.0.7",
+    "@syncfusion/ej2": "^21.2.10",
+    "@syncfusion/ej2-base": "^21.2.9",
+    "@syncfusion/ej2-icons": "^21.2.3",
+    "@syncfusion/ej2-layouts": "^21.2.3",
+    "@syncfusion/ej2-react-buttons": "^21.2.10",
+    "@syncfusion/ej2-react-calendars": "^21.2.10",
+    "@syncfusion/ej2-react-dropdowns": "^21.2.10",
+    "@syncfusion/ej2-react-grids": "^21.2.10",
+    "@syncfusion/ej2-react-navigations": "^21.2.9",
+    "@syncfusion/ej2-react-popups": "^21.2.10",
+    "browser-image-compression": "^2.0.2",
+    "chart.js": "^4.4.3",
+    "formik": "^2.4.6",
+    "loyalty-program-web": "file:",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^10.8.0",
+    "react": "^18.3.1",
+    "react-animated-numbers": "^0.18.0",
+    "react-dom": "^18.3.1",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.25.1",
+    "react-signalr": "^0.2.22",
+    "remixicon": "^4.3.0",
+    "simple-react-validator": "^1.6.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/uuid": "^9.0.8",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5",
+    "vite-plugin-mkcert": "^1.17.5"
+  }
+}

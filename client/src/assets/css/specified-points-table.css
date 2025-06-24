@@ -1,0 +1,35 @@
+.specified-point-table {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  padding-top: 0;
+  flex-direction: column;
+  overflow: auto;
+  transition: .2s;
+  max-width: calc(100vw - 780px);
+  min-width: calc(100vw - 780px);
+}
+
+.home-body.side-bar-close .specified-point-table {
+  max-width: calc(100vw - 700px);
+  min-width: calc(100vw - 700px);
+}
+
+.home-body.side-bar-close .client-points-table.closed .specified-point-table {
+  max-width: calc(100vw - 70px);
+  min-width: calc(100vw - 70px);
+}
+
+.client-points-table.closed .specified-point-table {
+  max-width: calc(100vw - 240px);
+  min-width: calc(100vw - 240px);
+}
+
+.specified-point-table-progress {
+  height: 2px;
+}
+
+.e-grid .e-headertext,
+.e-grid .e-rowcell {
+  font-size: 12px;
+}

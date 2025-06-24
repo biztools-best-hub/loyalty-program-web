@@ -1,0 +1,64 @@
+.all-point-table-content,
+.all-point-table-in,
+.all-point-table-container {
+  display: flex;
+}
+
+.all-point-table-content,
+.all-point-table-in,
+.all-point-table-container,
+.all-point-table-body {
+  flex: 1;
+}
+
+.all-point-table-body {
+  overflow: auto;
+  transition: .2s;
+  max-width: calc(100vw - 800px);
+  min-width: calc(100vw - 800px);
+}
+
+.home-body.side-bar-close .all-point-table-body {
+  max-width: calc(100vw - 720px);
+  min-width: calc(100vw - 720px);
+}
+
+.client-points-table.closed .all-point-table-body {
+  max-width: calc(100vw - 270px);
+  min-width: calc(100vw - 270px);
+}
+
+.home-body.side-bar-close .client-points-table.closed .all-point-table-body {
+  max-width: calc(100vw - 100px);
+  min-width: calc(100vw - 100px);
+}
+
+.all-point-table-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.all-point-table-in {
+  justify-content: space-between;
+  padding: 1rem;
+  padding-top: 0;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.all-point-table-body {
+  overflow: hidden;
+}
+
+.e-grid .e-headertext,
+.e-grid .e-rowcell {
+  font-size: 12px;
+}
+
+.e-icons.sort-icon.active {
+  color: #e3165b !important;
+}
+
+.e-btn.sort-btn.active:hover .e-icons.sort-icon.active {
+  color: #fff !important;
+}

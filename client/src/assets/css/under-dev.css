@@ -1,0 +1,32 @@
+.App.dark .under-dev {
+  color: #a17c02;
+}
+
+.App.light .under-dev {
+  color: #ffd998;
+}
+
+.under-dev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+i.c1 {
+  font-size: 80px;
+}
+
+i.c2 {
+  font-size: 40px;
+}
+
+.under-dev-title {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+
+.under-dev-description {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #999;
+}

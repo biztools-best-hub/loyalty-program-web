@@ -1,0 +1,56 @@
+.client-list-v2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  gap: 10px;
+  transition: .2s;
+  overflow: auto;
+  min-width: calc(100vw - 275px);
+  max-width: calc(100vw - 275px);
+}
+
+.home-body.side-bar-close .client-list-v2 {
+  min-width: calc(100vw - 110px);
+  max-width: calc(100vw - 110px);
+}
+
+.btn-show-all .e-btn-icon {
+  font-size: 20px;
+}
+
+.client-list-v2 .e-grid .e-headertext,
+.client-list-v2 .e-grid .e-rowcell {
+  font-size: 1rem;
+}
+
+.clickable-row {
+  cursor: pointer;
+}
+
+.client-detail-dialog {
+  width: 80%;
+  min-width: 300px;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+.client-detail-dialog-head {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.client-detail-dialog-head .pi {
+  font-size: 1.25rem;
+}
+
+.base-page-content {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.p-dialog-header-maximize::before {
+  font-family: remixicon !important;
+  content: "";
+}

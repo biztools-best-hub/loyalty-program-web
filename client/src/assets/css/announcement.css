@@ -1,0 +1,151 @@
+ .p-fileupload .p-fileupload-content {
+   box-sizing: content-box;
+   overflow: hidden;
+   padding: 0;
+ }
+
+ .p-fileupload .p-progressbar,
+ .p-progressbar .p-component .p-progressbar-determinate {
+   height: 0;
+   background-color: transparent;
+ }
+
+ .p-fileupload .p-fileupload-row>div {
+   padding: 0;
+ }
+
+ .m-hover {
+   transition: .1s;
+   background-color: transparent !important;
+   border: solid 1px #c0c0c0 !important;
+ }
+
+ .announcement-link {
+   color: #4392ff;
+ }
+
+ .m-hover:hover {
+   background-color: rgba(255, 255, 255, .2) !important;
+ }
+
+ .accept-btn,
+ .reject-btn {
+   height: 34px;
+   border: none;
+   background: none;
+ }
+
+ .accept-btn {
+   background-color: #68a042;
+ }
+
+ .accept-btn:hover,
+ .accept-btn:hover:focus {
+   background-color: #78b94d;
+ }
+
+ .reject-btn {
+   background-color: #c2c2c2;
+   color: #303030;
+ }
+
+ .schedule-day {
+   flex: 1;
+   cursor: pointer;
+   border: solid 1px #f77f7f;
+   border-radius: 4px;
+   padding: 6px 10px;
+   text-transform: capitalize;
+ }
+
+ .schedule-day.selected {
+   background-color: #f77f7f;
+   color: #fff;
+ }
+
+ .card-created-date {
+   color: #1795b4;
+ }
+
+ .card-send-at {
+   display: flex;
+   gap: 6px;
+   /* font-size: 11px; */
+   align-items: center;
+ }
+
+ .cycle-wrap {
+   display: flex;
+   gap: 6px;
+   text-transform: capitalize;
+   align-items: center;
+ }
+
+ .card-send-at i {
+   font-size: 18px;
+   color: #0fa1c5;
+ }
+
+ .card-cycle-day {
+   font-size: 10px;
+   font-weight: bold;
+   padding: 1px 4px;
+   background-color: rgb(255, 188, 188);
+   border-radius: 4px;
+ }
+ .card-cycle-day.active{
+   background-color: rgb(175, 59, 59);
+   color: #fff;
+ }
+
+ .card-cycle-days {
+   display: flex;
+   gap: 2px;
+   align-items: center;
+ }
+
+ .preview-schedule {
+   color: #ffc9c9;
+   display: flex;
+   gap: 10px;
+   align-items: center;
+ }
+
+ .preview-schedule i {
+   font-size: 26px;
+   color: #8de8ff;
+ }
+
+ .schedule-routine {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+
+ .p-schedule-days {
+   display: flex;
+   gap: 6px;
+   align-items: center;
+ }
+
+ .p-schedule-day {
+   text-transform: capitalize;
+   border: solid 1px #ffe3e3;
+   color: #ffe3e3;
+   background-color: rgba(255, 0, 0, 0.2);
+   padding: 3px 10px;
+   border-radius: 10px;
+ }
+
+ .p-schedule-day.active {
+   border-color: rgb(199, 90, 90);
+   background-color: rgb(199, 90, 90);
+ }
+
+ .p-schedule-time {
+   border: solid 1px #d5a2ff;
+   background-color: rgba(140, 0, 255, 0.2);
+   padding: 3px 10px;
+   border-radius: 10px;
+   color: #f3e4ff;
+ }

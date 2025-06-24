@@ -1,0 +1,41 @@
+{
+  "name": "loyalty-program-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "build:build": "cd client && npm run build && cd .. && npx tsc",
+    "start": "node dist/index.js",
+    "start:build": "cd client && npm run build && cd .. && npm run start",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+    "dev:build": "npm run build && npm run dev",
+    "build:iis": "cd client && npm i && npm run build && cd .. && npm i && npx tsc && cd dist && npm i"
+  },
+  "keywords": [
+    "loyalty-program"
+  ],
+  "author": "biztools,codenester",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.3",
+    "express-fileupload": "^1.5.0",
+    "loyalty-program-web": "file:",
+    "uuid": "^9.0.1",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^4.17.21",
+    "@types/express-fileupload": "^1.5.0",
+    "@types/uuid": "^9.0.8",
+    "@types/ws": "^8.5.10",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.2"
+  }
+}

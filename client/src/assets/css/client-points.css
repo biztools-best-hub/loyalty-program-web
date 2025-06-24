@@ -1,0 +1,295 @@
+.e-grid .e-headertext,
+.e-grid .e-rowcell {
+  font-size: 16px;
+  max-height: 36px;
+  min-height: 36px;
+}
+
+.e-row {
+  max-height: 36px;
+  min-height: 36px;
+}
+
+.client-points {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  max-width: 100%;
+  min-height: 300px;
+}
+
+.client-points .e-grid .e-gridheader,
+.client-points .e-grid .e-headercontent,
+.client-points .e-grid .e-headercontent .e-table,
+.client-points .e-grid .e-headercell {
+  min-height: 36px;
+  max-height: 36px;
+}
+
+.client-points .table-title {
+  /* margin-top: 1rem; */
+  text-align: center;
+  background-color: #fff;
+  text-transform: capitalize;
+  padding: 0 10px;
+}
+
+.client-points .e-grid {
+  border-radius: 0 0 6px 6px;
+}
+
+.client-points .table-title {
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App.dark .client-points .table-title,
+.App.light .client-points .table-title {
+  border-bottom: none;
+}
+
+.App.dark .client-points .table-title {
+  background-color: #3f3a3a;
+}
+
+.App.light .client-points .table-title {
+  border: 1px solid #e0dfdf;
+}
+
+.App.dark .client-points .e-grid .e-gridpager,
+.App.dark .client-points .e-grid .e-gridpager .e-pagercontainer,
+.App.dark .client-points .e-grid .e-gridpager .e-pagercontainer .e-icons,
+.App.dark .client-points .e-grid .e-gridpager .e-pagercontainer .e-pager-default.e-numericitem,
+.App.dark .client-points .e-grid .e-headercell {
+  background-color: #3f3a3a;
+}
+
+.App.light .client-points .e-grid .e-rowcell {
+  border-right: 1px solid #e0dfdf;
+}
+
+.App.dark .client-points .e-grid .e-rowcell {
+  border-right: 1px solid #616161;
+}
+
+.App.dark .client-points .e-grid .e-rowcell:nth-last-child(1),
+.App.light .client-points .e-grid .e-rowcell:nth-last-child(1) {
+  border-right: none;
+}
+
+.e-icons {
+  font-family: 'e-icons' !important;
+}
+
+.client-points .e-gridcontent .e-content {
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.p-dialog-maximized .client-points .e-gridcontent .e-content {
+  min-height: calc(100vh - 480px);
+  max-height: calc(100vh - 480px);
+}
+
+.client-points .e-pager .e-icon-last::before {
+  content: '\e300';
+}
+
+.client-points .e-pager .e-icon-first::before {
+  content: '\e302';
+}
+
+.client-points .e-pagerconstant {
+  display: none;
+}
+
+.App.dark .client-points .e-pagercontainer .e-currentitem.e-active {
+  background: #FCA5A5;
+}
+
+.App.light .client-points .e-pagercontainer .e-currentitem.e-active {
+  background: #EF4444;
+}
+
+.client-points .e-grid {
+  overflow: hidden;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .1) !important;
+  margin: 2px;
+}
+
+.App.dark .client-points .no-data {
+  background: #2c2a2a;
+  border: solid 1px #616161;
+}
+
+.App.light .client-points .no-data {
+  border: solid 1px #e0dfdf;
+}
+
+.client-points .no-data {
+  min-height: 60px;
+  border-radius: 0 0 6px 6px;
+  display: grid;
+  place-items: center;
+}
+
+.client-points .no-data .p-inline-message-icon,
+.client-points .no-data .p-inline-message-text {
+  font-size: 1rem;
+}
+
+.client-points .paginator {
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.App.dark .client-points .col-danger {
+  color: #FCA5A5;
+}
+
+.App.light .client-points .col-danger {
+  color: #EF4444;
+}
+
+.App.dark .client-points .col-success {
+  color: #86EFAC;
+}
+
+.App.light .client-points .col-success {
+  color: #22C55E;
+}
+
+.adjust-warn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+
+.App.dark .adjust-warn {
+  color: #FCD34D;
+}
+
+.App.light .adjust-warn {
+  color: #F59E0B;
+}
+
+.App.light .msg-error {
+  color: #EF4444;
+}
+
+.App.dark .msg-error {
+  color: #FCA5A5;
+}
+
+.tbl-skeleton,
+.adj-dialog-head,
+.adj-dialog-body,
+.adj-dialog-warn-part,
+.adj-point-input-group,
+.point-input,
+.remark-input,
+.adj-dialog-btn-wrap,
+.m-template {
+  display: flex;
+}
+
+.adj-dialog-head,
+.m-template {
+  align-items: center;
+}
+
+.adj-dialog-head,
+.point-input,
+.remark-input,
+.m-template {
+  gap: 6px;
+}
+
+.adj-dialog-btn-wrap,
+.m-template {
+  justify-content: flex-end;
+}
+
+.m-template .e-icons {
+  font-size: 10px;
+}
+
+.adj-dialog-head,
+.btn-adj-point {
+  text-transform: capitalize;
+}
+
+.adj-dialog-body,
+.point-input,
+.remark-input,
+.tbl-skeleton {
+  flex-direction: column;
+}
+
+.adj-point-input-group,
+.tbl-skeleton {
+  gap: 10px;
+}
+
+.adj-warn-msg {
+  border: none;
+  background: transparent;
+}
+
+.adj-dialog {
+  min-width: calc(100vw - 20px);
+}
+
+.adj-dialog-head {
+  padding-left: 6px;
+  justify-content: flex-start;
+}
+
+.adj-dialog-warn-part {
+  justify-content: space-between;
+}
+
+.btn-go-to-last-point {
+  margin-left: 10px;
+}
+
+.point-input,
+.remark-input,
+.adj-point-input-group {
+  align-items: flex-start;
+}
+
+.adj-point-input-group {
+  padding: 10px;
+}
+
+.points {
+  text-align: right;
+}
+
+.remark-input,
+#remark {
+  flex: 1;
+}
+
+.remark-input {
+  max-height: 75px;
+}
+
+#remark {
+  min-width: 100%;
+}
+
+.adj-dialog-btn-wrap {
+  margin-top: 10px;
+  padding-right: 6px;
+}
+
+.point-history-title {
+  margin-left: 1rem;
+}

@@ -1,0 +1,22 @@
+.test {
+  color: #0a1f3f;
+}
+
+.table-loading {
+  margin-bottom: -1rem;
+}
+
+.client-list .dropdown-item {
+  display: flex;
+  cursor: pointer;
+  min-height: 40px;
+  padding: 0 14px;
+  gap: 10px;
+  align-items: center;
+}
+
+.App.dark .client-list .p-menu-overlay,
+.App.dark .client-list .dropdown-item {
+  background: #242527;
+  border: none;
+}

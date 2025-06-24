@@ -1,0 +1,267 @@
+.p-card {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.App.light .p-card {
+  border: solid 1px #ddd;
+}
+
+.p-card .p-card-body .p-card-content,
+.p-card .p-card-body {
+  height: 100%;
+}
+
+.p-card-body {
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.p-card .p-card-body .p-card-content {
+  padding: 0;
+}
+
+.label-part,
+.val-part {
+  text-transform: capitalize;
+  gap: 16px;
+}
+
+.label-part {
+  max-width: 80px;
+}
+
+.group-tag {
+  background: transparent;
+  font-size: 0.7rem;
+}
+
+.App.light .group-tag {
+  color: #8B5CF6;
+  border: solid 1px #8B5CF6;
+}
+
+.App.dark .group-tag {
+  color: #C4B5FD;
+  border: solid 1px #C4B5FD;
+}
+
+.App.light .btn-delete-account.disabled,
+.App.light .change-pw-btn.disabled {
+  color: #ddd;
+  border: solid 1px #ddd;
+}
+
+.App.dark .p-divider::before {
+  border-color: #555;
+}
+
+.App.dark .error-help {
+  color: #FCA5A5;
+}
+
+.App.light .error-help {
+  color: #EF4444;
+}
+
+.App.dark .change-pw-dialog {
+  border-top: solid 1px #333;
+}
+
+.App.light .change-pw-dialog {
+  border-top: solid 1px #ddd;
+}
+
+.user-account-page,
+.label-part,
+.val-part,
+.profile-card,
+.profile-card .head,
+.profile-card .body,
+.profile-detail-card,
+.profile-detail-card .section,
+.profile-detail-card .row,
+.profile-detail-card .item,
+.profile-card .section {
+  flex: 1;
+}
+.profile-detail-card .item{
+  padding: 3px;
+}
+
+.user-account-page,
+.p-card .p-card-body .p-card-content,
+.label-part,
+.val-part,
+.profile-card .head,
+.profile-card .body,
+.profile-card .foot,
+.profile-detail-card .section,
+.profile-detail-card .row,
+.profile-detail-card .item,
+.profile-control,
+.profile-control .editing,
+.change-pw-dialog,
+.change-pw-dialog-container .header,
+.change-pw-dialog .row,
+.profile-card .section {
+  display: flex;
+}
+
+.profile-card,
+.profile-detail-card {
+  margin: 16px;
+  box-shadow: none;
+}
+
+.profile-card {
+  max-width: 300px;
+}
+
+.label-part,
+.val-part,
+.profile-card .head,
+.profile-card .foot,
+.profile-detail-card .section,
+.profile-detail-card .item,
+.change-pw-dialog,
+.change-pw-dialog .row,
+.profile-card .section {
+  flex-direction: column;
+}
+
+.profile-detail-card .row,
+.change-pw-dialog-container .header,
+.profile-card .head {
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-card .head {
+  justify-content: center;
+  max-height: 240px;
+}
+
+.profile-card .body {
+  padding-top: 16px;
+}
+
+.profile-card .body,
+.profile-detail-card .section,
+.profile-detail-card .item,
+.profile-control .editing,
+.profile-card .foot {
+  gap: 10px;
+}
+
+.profile-detail-card {
+  margin-left: 0;
+}
+
+.label-part,
+.val-part,
+.change-pw-dialog .row,
+.profile-detail-card .item {
+  text-align: left;
+}
+
+.profile-control {
+  justify-content: flex-end;
+}
+
+.change-pw-dialog {
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.change-pw-dialog .row {
+  gap: 6px;
+}
+
+.avatar-img {
+  width: 120px;
+  height: 120px;
+}
+
+.profile-username {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.change-pw-input-box {
+  width: 100%;
+}
+
+.btn-change-pw-ok {
+  margin-top: 16px;
+}
+
+.change-pw-dialog-container {
+  min-width: 380px;
+}
+
+.change-pw-dialog-container .p-password-input {
+  width: 100% !important;
+}
+
+.avatar-wrap {
+  position: relative;
+}
+
+.btn-upload-img {
+  padding: 0;
+  max-width: 36px;
+  max-height: 36px;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-30px) translateY(-10px);
+}
+
+.btn-upload-img:focus,
+.btn-upload-img:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.btn-upload-img.hide {
+  display: none;
+}
+
+.App.dark .btn-upload-img {
+  background: #ddd;
+  color: #555;
+}
+
+.App.dark .btn-upload-img:hover {
+  background: #fff;
+  color: #555;
+}
+
+.App.light .btn-upload-img {
+  background: #555;
+  color: #fff;
+}
+
+.App.light .btn-upload-img:hover {
+  background: #333;
+  color: #fff;
+}
+
+.section-items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.profile-control {
+  padding-top: 1.25rem;
+}
+
+.App.dark .profile-control {
+  border-top: solid 1px #333;
+}
+
+.App.light .profile-control {
+  border-top: solid 1px #ddd;
+}

@@ -1,0 +1,31 @@
+.base-page-content,
+.page-title {
+  flex: 1;
+  display: flex;
+}
+
+.base-page {
+  background-color: #ddd;
+}
+
+.page-title {
+  /* padding-left: 1rem; */
+  font-weight: normal;
+  font-family: montserrat;
+  text-align: left;
+  flex: 1;
+  /* max-height: 46px; */
+  overflow: hidden;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.base-page-content {
+  padding: 1rem;
+  overflow: hidden;
+  padding-top: 0;
+}
+
+.base-page-content .hide-title {
+  padding: 0;
+}

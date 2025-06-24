@@ -1,0 +1,61 @@
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.user-list .e-grid .e-headertext,
+.user-list .e-grid .e-rowcell {
+  font-size: 1rem;
+}
+
+.user-list-img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.user-list-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.user-list-tbl {
+  transition: .2s;
+  border-radius: 4px;
+  min-width: calc(100vw - 275px);
+  max-width: calc(100vw - 275px);
+  overflow: auto;
+}
+
+.home-body.side-bar-close .user-list-tbl {
+  min-width: calc(100vw - 110px);
+  max-width: calc(100vw - 110px);
+}
+
+.e-tab-header.e-control.e-toolbar.e-lib.e-keyboard {
+  display: flex;
+  border-bottom: solid 2px #cf2457;
+}
+
+.e-toolbar-item.e-ileft.e-template.e-active {
+  background-color: #cf2457;
+  /* color: #fff !important; */
+}
+
+.e-toolbar-item.e-ileft.e-template.e-active .e-icons,
+.e-toolbar-item.e-ileft.e-template.e-active .e-tab-text {
+  color: #fff !important;
+}
+
+.e-indicator.e-ignore {
+  display: none !important;
+}
+
+.e-control.e-grid.e-lib.e-grid-min-height.e-responsive.e-default.e-droppable.e-resize-lines.e-tooltip.e-keyboard {
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+  margin: 2px;
+}

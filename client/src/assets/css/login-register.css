@@ -1,0 +1,230 @@
+.login-register-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  background-color: #ffffff;
+  color: #121212;
+}
+
+.login-register-container.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.login-register-container .background-part {
+  flex: 1;
+  display: flex;
+  max-width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.login-register-container .background-part .background {
+  padding: 10%;
+  display: flex;
+  height: 200%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  transform: translateX(10%);
+  background: var(--biztools-light-bg-accent);
+}
+
+.login-register-container .background-part .background.dark {
+  background: var(--biztools-dark-bg);
+}
+
+.login-register-container .background-part .background .in-background {
+  flex: 1;
+  border-radius: 50%;
+  background: var(--biztools-light-bg);
+}
+
+.login-register-container .background-part .background .in-background.dark {
+  background: var(--biztools-dark-bg-accent);
+}
+
+.login-register-container .background-part .foreground {
+  position: absolute;
+  flex: 1;
+  width: 50%;
+  gap: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-register-container .background-part .foreground .bt-logo {
+  width: 200px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login-register-container .background-part .foreground .bt-name {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.login-register-container .background-part .foreground .bt-power {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.login-register-container .form-part {
+  display: flex;
+  flex: 1;
+}
+
+.login-register-container .form-part .wrap {
+  flex: 1;
+  transform: translateX(10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-register-container .form-part .wrap .in-form {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  transition: 0.2s;
+  height: 373px;
+}
+
+.login-register-container .form-part .wrap .in-form.is-register {
+  height: 434px;
+}
+
+.login-register-container .form-part .wrap .in-form .title {
+  font-size: 2rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.login-register-container .login-form,
+.login-register-container .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-register-container .login-form .username-error,
+.login-register-container .login-form .password-error {
+  font-size: 0.8rem;
+  margin-top: 4px;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-style: italic;
+  transition: 0.2s;
+  max-height: 0;
+}
+
+.login-register-container .login-form .username-error.error,
+.login-register-container .login-form .password-error.error {
+  max-height: 20px;
+}
+
+.no-account-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.btn-setting {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  max-height: 36px;
+  max-width: 100px;
+  padding: 6px 12px;
+}
+
+.btn-setting:active,
+.btn-setting:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.btn-setting .p-button-label {
+  font-weight: 400;
+}
+
+.p-icon-field.p-icon-field-right {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.p-icon-field.p-icon-field-right .p-input-icon {
+  position: absolute;
+  right: 10px;
+  transform: translateY(2px);
+}
+
+@media screen and (max-width:1145px) {
+  .login-register-container .background-part .background {
+    height: 160%;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .login-register-container .background-part .background {
+    height: 130%;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .login-register-container .form-part {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .login-register-container .form-part .wrap {
+    transform: translateX(0);
+  }
+
+  .login-register-container .background-part .foreground {
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    top: 20px;
+    left: 20px;
+    gap: 6px;
+    align-items: flex-start;
+  }
+
+  .login-register-container .background-part .foreground .bt-logo {
+    width: 140px;
+  }
+
+  .login-register-container .background-part .foreground .bt-name {
+    font-size: 1rem;
+    text-align: left;
+    max-width: 300px;
+  }
+
+  .login-register-container .background-part .foreground .bt-power {
+    position: fixed;
+    bottom: 20px;
+  }
+}
+
+@media screen and (max-width:700px) {
+
+  .login-register-container .background-part .foreground .bt-name.light,
+  .login-register-container .background-part .foreground .bt-power.light {
+    color: #333;
+  }
+}
